@@ -22,9 +22,9 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I'm an software developer. Passionate about web & mobile development
-            using React.js, Node.js, Flutter. Always eager to learn and
-            contribute to real-world projects.
+            I'm an software developer. Passionate about web & mobile
+            development. Always eager to learn and contribute to real-world
+            projects.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
