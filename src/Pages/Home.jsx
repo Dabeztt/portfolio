@@ -2,7 +2,8 @@ import ThemeToggle from "../Components/ThemeToggle";
 import StarBackground from "../Components/StarBackground";
 import Navbar from "../Components/Navbar";
 import HeroSection from "../Components/HeroSection";
-import AboutSection from "../Components/AboutSection";
+import AboutMeSection from "../Components/AboutMeSection";
+import SkillsSection from "../Components/SkillsSection";
 
 const Home = () => {
   return (
@@ -12,7 +13,8 @@ const Home = () => {
       <Navbar />
       <main>
         <HeroSection />
-        <AboutSection />
+        <AboutMeSection />
+        <SkillsSection />
       </main>
     </div>
   );
