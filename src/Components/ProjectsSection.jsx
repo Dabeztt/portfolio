@@ -89,7 +89,7 @@ const ProjectsSection = () => {
             target="_blank"
             href="https://github.com/Dabeztt"
           >
-            Check my Github <ArrowRight size={16} />
+            Check My Github <ArrowRight size={16} />
           </a>
         </div>
       </div>
