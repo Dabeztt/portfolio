@@ -33,9 +33,17 @@ const SkillsSection = () => {
   return (
     <section id="skills" className="py-24 px-4 relative bg-secondary/30">
       <div className="container mx-auto max-w-5xl">
-        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-          My <span className="text-primary"> Skills</span>
-        </h2>
+        <div className="mb-12 flex justify-center items-center gap-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-center">
+            My <span className="text-primary"> Skills</span>
+          </h2>
+
+          <img
+            src="/chibi/skills.png"
+            alt="Skills"
+            className="w-20 h-20 md:w-30 md:h-30 object-contain"
+          />
+        </div>
 
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           {categories.map((category, key) => (
